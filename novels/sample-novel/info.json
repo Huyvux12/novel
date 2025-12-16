@@ -1,0 +1,29 @@
+{
+  "id": "sample-novel",
+  "title": "Tiên Giới Kỳ Duyên",
+  "author": "Văn Nhân",
+  "description": "Tiên Giới Kỳ Duyên là câu chuyện về Lâm Phong, một thanh niên trẻ tuổi từ phàm thế bước vào con đường tu tiên. Với ý chí kiên cường và tài năng vượt trội, anh đã trải qua muôn vàn thử thách, đối mặt với nhiều kẻ thù mạnh mẽ để dần dần trở thành một cường giả đứng đầu tiên giới. Trên hành trình này, Lâm Phong đã gặp được những người bạn đồng hành đáng tin cậy, những người thầy uyên bác và cả những mối tình sâu đậm. Câu chuyện không chỉ là về sức mạnh và tu luyện mà còn là về tình bạn, tình yêu và sự lựa chọn giữa chính nghĩa và quyền lực.",
+  "cover": "https://via.placeholder.com/200x300/4A90E2/FFFFFF?text=Tiên+Giới+Kỳ+Duyên",
+  "genres": ["Huyền huyễn", "Tu tiên", "Phiêu lưu"],
+  "status": "Đang ra",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chương 1: Khởi Nguyên",
+      "file": "chap1.md",
+      "date": "2025-01-01"
+    },
+    {
+      "number": 2,
+      "title": "Chương 2: Bước Vào Tu Chân",
+      "file": "chap2.md",
+      "date": "2025-01-02"
+    },
+    {
+      "number": 3,
+      "title": "Chương 3: Thử Thách Đầu Tiên",
+      "file": "chap3.md",
+      "date": "2025-01-03"
+    }
+  ]
+}

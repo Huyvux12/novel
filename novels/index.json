@@ -1,0 +1,22 @@
+{
+  "novels": [
+    {
+      "id": "sample-novel",
+      "title": "Tiên Giới Kỳ Duyên",
+      "author": "Văn Nhân",
+      "description": "Câu chuyện về một thanh niên trẻ tuổi bước vào con đường tu tiên, trải qua nhiều thử thách để trở thành cường giả đứng đầu tiên giới.",
+      "cover": "https://via.placeholder.com/200x300/4A90E2/FFFFFF?text=Tiên+Giới+Kỳ+Duyên",
+      "genres": ["Huyền huyễn", "Tu tiên", "Phiêu lưu"],
+      "status": "Đang ra"
+    },
+    {
+      "id": "co-phong-ky",
+      "title": "Cổ Phong Kỳ",
+      "author": "Lãng Tử",
+      "description": "Truyện kể về hành trình của một vị tướng quân thời cổ đại, qua nhiều biến cố lịch sử và những mối tình tay ba.",
+      "cover": "https://via.placeholder.com/200x300/E24A4A/FFFFFF?text=Cổ+Phong+Kỳ",
+      "genres": ["Cổ trang", "Lịch sử", "Tình cảm"],
+      "status": "Hoàn thành"
+    }
+  ]
+}

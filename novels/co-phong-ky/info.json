@@ -1,0 +1,23 @@
+{
+  "id": "co-phong-ky",
+  "title": "Cổ Phong Kỳ",
+  "author": "Lãng Tử",
+  "description": "Cổ Phong Kỳ là câu chuyện về Trần Vũ, một vị tướng quân tài ba của triều đại nhà Trần. Anh được giao trọng trách bảo vệ biên cương phía Bắc trước sự xâm lược của quân Mông-Ngô. Trên chiến trường, Trần Vũ không chỉ thể hiện tài năng quân sự xuất sắc mà còn gặp được những người đồng chí cùng hướng. Tuy nhiên, số phận trêu ngươi khi anh phải đối mặt với những mối tình tay ba phức tạp: người vợ thuở nhỏ do gia đình sắp đặt, cô gái Mông-Ngô mà anh cứu trên chiến trường, và nữ hoàng của triều đại. Câu chuyện không chỉ là về chiến tranh và tình yêu, mà còn là về sự lựa chọn giữa nghĩa vụ và tình cảm, giữa cá nhân và quốc gia.",
+  "cover": "https://via.placeholder.com/200x300/E24A4A/FFFFFF?text=Cổ+Phong+Kỳ",
+  "genres": ["Cổ trang", "Lịch sử", "Tình cảm"],
+  "status": "Hoàn thành",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chương 1: Lệnh Triệu",
+      "file": "chap1.md",
+      "date": "2025-01-01"
+    },
+    {
+      "number": 2,
+      "title": "Chương 2: Chuyến Đi Đầu Tiên",
+      "file": "chap2.md",
+      "date": "2025-01-02"
+    }
+  ]
+}

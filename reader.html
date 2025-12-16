@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đọc truyện - Light Novel Reader</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Georgia:wght@400;700&family=Times+New+Roman:wght@400;700&family=Verdana:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="reader-page">
+    <header class="reader-header">
+        <div class="container">
+            <div class="reader-nav">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Quay lại</span>
+                </a>
+                <h1 id="novel-title" class="novel-title"></h1>
+                <div class="chapter-nav">
+                    <button id="prev-chapter" class="nav-btn">
+                        <i class="fas fa-chevron-left"></i>
+                        <span>Chương trước</span>
+                    </button>
+                    <select id="chapter-select" class="chapter-select">
+                        <!-- Chapters will be loaded here -->
+                    </select>
+                    <button id="next-chapter" class="nav-btn">
+                        <span>Chương sau</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="reader-toolbar">
+        <div class="container">
+            <div class="toolbar-content">
+                <div class="toolbar-group">
+                    <label for="font-select">Font chữ:</label>
+                    <select id="font-select">
+                        <option value="Roboto">Roboto</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                        <option value="Verdana">Verdana</option>
+                        <option value="Arial">Arial</option>
+                    </select>
+                </div>
+                
+                <div class="toolbar-group">
+                    <label for="font-size">Cỡ chữ:</label>
+                    <div class="font-size-controls">
+                        <button id="font-decrease" class="size-btn">A-</button>
+                        <span id="font-size-value">18px</span>
+                        <button id="font-increase" class="size-btn">A+</button>
+                    </div>
+                </div>
+                
+                <div class="toolbar-group">
+                    <label for="theme-select">Giao diện:</label>
+                    <select id="theme-select">
+                        <option value="light">Sáng</option>
+                        <option value="sepia">Sepia</option>
+                        <option value="gray">Xám</option>
+                        <option value="dark">Tối</option>
+                    </select>
+                </div>
+                
+                <div class="toolbar-group">
+                    <button id="toggle-toc" class="toc-btn">
+                        <i class="fas fa-list"></i>
+                        <span>Mục lục</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="reader-main">
+        <div class="container">
+            <div class="reader-container">
+                <div id="table-of-contents" class="table-of-contents hidden">
+                    <h3>Mục lục</h3>
+                    <ul id="toc-list">
+                        <!-- TOC will be generated here -->
+                    </ul>
+                </div>
+                
+                <div id="chapter-content" class="chapter-content">
+                    <!-- Chapter content will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="reader-footer">
+        <div class="container">
+            <div class="footer-nav">
+                <button id="prev-chapter-footer" class="nav-btn">
+                    <i class="fas fa-chevron-left"></i>
+                    <span>Chương trước</span>
+                </button>
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-home"></i>
+                    <span>Trang chủ</span>
+                </a>
+                <button id="next-chapter-footer" class="nav-btn">
+                    <span>Chương sau</span>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@13/dist/markdown-it.min.js"></script>
+    <script src="js/reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Novel Reader</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <i class="fas fa-book-open"></i>
+                    <span>Light Novel Reader</span>
+                </h1>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Tìm kiếm truyện...">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="filter-section">
+                <h2>Thể loại</h2>
+                <div class="filter-tags">
+                    <button class="filter-tag active" data-genre="all">Tất cả</button>
+                    <button class="filter-tag" data-genre="Huyền huyễn">Huyền huyễn</button>
+                    <button class="filter-tag" data-genre="Tu tiên">Tu tiên</button>
+                    <button class="filter-tag" data-genre="Phiêu lưu">Phiêu lưu</button>
+                    <button class="filter-tag" data-genre="Cổ trang">Cổ trang</button>
+                    <button class="filter-tag" data-genre="Lịch sử">Lịch sử</button>
+                    <button class="filter-tag" data-genre="Tình cảm">Tình cảm</button>
+                </div>
+            </div>
+
+            <div class="novels-section">
+                <h2>Danh sách truyện</h2>
+                <div id="novels-grid" class="novels-grid">
+                    <!-- Novel cards will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Light Novel Reader. Đọc truyện trực tuyến miễn phí.</p>
+        </div>
+    </footer>
+
+    <!-- Novel Detail Modal -->
+    <div id="novel-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="novel-detail">
+                <div class="novel-cover">
+                    <img id="modal-cover" src="" alt="Bìa truyện">
+                </div>
+                <div class="novel-info">
+                    <h2 id="modal-title"></h2>
+                    <p><strong>Tác giả:</strong> <span id="modal-author"></span></p>
+                    <p><strong>Thể loại:</strong> <span id="modal-genres"></span></p>
+                    <p><strong>Trạng thái:</strong> <span id="modal-status"></span></p>
+                    <p id="modal-description"></p>
+                    <button id="read-btn" class="btn-primary">Đọc truyện</button>
+                </div>
+            </div>
+            <div class="chapters-list">
+                <h3>Danh sách chương</h3>
+                <ul id="chapters-list">
+                    <!-- Chapters will be loaded here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
